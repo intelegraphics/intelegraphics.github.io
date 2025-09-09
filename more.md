@@ -10,12 +10,12 @@ If you enjoy using this Apps and want to support its development, feel free to t
 Thank you for your generosity! 💖
 
 ---
-## Donate Bitcoin
+## Sincerely Donate Bitcoin
 
 | Bitcoin                                                                                     |
 |:-------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/NARKOZ/SponsorMe/blob/1main/bitcoin.png?raw=true" width="300">  |
-| BTC address: ``    
+| <img src="https://github.com/intelegraphics/blob/main/bitcoin1.png?raw=true" width="300">  |
+| BTC address: `1DDQgj1TP6fcsJyTooVky3oyciAc9hrZXT`    
 
 # THANK YOU for giving back!
 
