@@ -6,27 +6,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes">
 		
 	</head>
-    
     <style>
-            html, body {
-                height: 100%;
-                margin: 20;
-                padding: 0;
-                font-family: "Microsoft YaHei", "SimSun", serif;
-                text-align: left;
-            }
-            
+        html, body {
+            height: 100%;
+            margin: 20;
+            padding: 0;
+            font-family: "Microsoft YaHei", "SimSun", serif;
+            text-align: left;
+        }
+        
+        body {
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            color: #000000;
+            font-size: 16px; /* 可选：设置基础字体 */
+        }
+        
+        /* 可选：优化移动端显示 */
+        @media screen and (max-width: 768px) {
             body {
-                
-                background-size: cover;
-                display: flex;
-                flex-direction: column;
-                justify-content: left;
-                align-items: center;
-                color: #000000;
-               /* 仅保留文字阴影增强可读性 */
+                font-size: 18px;
+                padding: 15px;
             }
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+        }
     </style>
+    
 	<body>
         <h1>User Agreement</h1>
         <p>
