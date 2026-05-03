@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>篆書字典 - 安卓下载</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f5f5f5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            text-align: center;
+            padding: 32px 24px 40px;
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            background: #4A7D4D;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 48px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e1e2f;
+            margin-bottom: 8px;
+        }
+
+        .version {
+            color: #8e8e93;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .desc {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 32px;
+            padding: 0 8px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #4A7D4D;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 14px 28px;
+            border-radius: 60px;
+            text-decoration: none;
+            transition: 0.2s;
+            box-shadow: 0 2px 8px rgba(74, 125, 77, 0.3);
+            margin-bottom: 24px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background: #3a643d;
+            transform: scale(1.02);
+        }
+
+        .note {
+            background: #f8f9fa;
+            padding: 16px;
+            border-radius: 20px;
+            text-align: left;
+            font-size: 13px;
+            color: #666;
+            margin: 24px 0 16px;
+        }
+
+        .note p {
+            margin: 8px 0;
+        }
+
+        .note code {
+            background: #e9ecef;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 24px;
+        }
+
+        hr {
+            margin: 16px 0;
+            border: none;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">
+            📖
+        </div>
+        <h1>篆書字典</h1>
+        <div class="version">版本 1.0.0 | 测试版</div>
+        <div class="desc">
+            简体/繁体查询 · 篆书字体展示<br>
+            一键截图保存 · 离线可用
+        </div>
+
+        <!-- 下载按钮 (替换成你的实际下载链接) -->
+        <a href="http://intelegraphics.github.io/release/zhuanshuzidian_1.apk" class="download-btn" id="downloadBtn">
+            ⬇️ 下载 APK
+        </a>
+
+        <div class="note">
+            <strong>📌 安装说明</strong>
+            <p>1️⃣ 点击上方按钮下载 <code>.apk</code> 文件</p>
+            <p>2️⃣ 手机提示「禁止安装未知应用」时 → 点击「设置」→ 允许「允许来自此来源的应用」</p>
+            <p>3️⃣ 返回下载页面，再次点击 APK 完成安装</p>
+            <p>⚠️ 系统可能会提示「Google Play 保护机制」→ 点击「仍要安装」即可</p>
+        </div>
+
+        <hr>
+
+<!--        <div style="font-size:13px; color:#555;">-->
+<!--            📧 反馈与建议<br>-->
+<!--            <a href="mailto:jisu2530@colorado.edu" style="color:#4A7D4D;">jisu2530@colorado.edu</a>-->
+<!--        </div>-->
+        <div class="footer">
+            篆書字典 · 书法工具
+        </div>
+    </div>
+
+    <script>
+        // 可选：给下载按钮加一个点击提示（仅作演示）
+        document.getElementById('downloadBtn').addEventListener('click', function(e) {
+            // 这里不需要阻止默认行为，只是加一个控制台友好提示
+            console.log('开始下载 APK');
+        });
+    </script>
+</body>
+</html>
