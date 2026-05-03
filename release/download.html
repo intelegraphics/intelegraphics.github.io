@@ -36,24 +36,27 @@
         .version {
             color: #999;
             font-size: 14px;
-            margin-bottom: 24px;
+            margin-bottom: 32px;
         }
-        .download-btn {
+        .btn {
             display: block;
             width: 100%;
             background: #4A7D4D;
             color: white;
             text-decoration: none;
-            padding: 16px 24px;
+            padding: 14px 24px;
             border-radius: 48px;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
-            margin: 24px 0;
+            margin: 16px 0;
             text-align: center;
             box-sizing: border-box;
         }
-        .download-btn:active {
-            background: #3a643d;
+        .btn-gray {
+            background: #6c757d;
+        }
+        .btn:active {
+            opacity: 0.8;
         }
         .note {
             background: #f8f8f8;
@@ -62,6 +65,7 @@
             text-align: left;
             font-size: 14px;
             color: #666;
+            margin-top: 24px;
         }
         .note p {
             margin: 8px 0;
@@ -74,15 +78,19 @@
         <h1>篆書字典</h1>
         <div class="version">版本 1.0.0 | 安卓版</div>
 
-        <a href="http://intelegraphics.github.io/release/zhuanshuzidian_1.apk" class="download-btn" target="_blank">
-            ⬇️ 点击下载 APK
+        <a href="https://play.google.com/apps/testing/com.bobrowsky.zhuanshuzidian" class="btn" target="_blank">
+            📱 方式一：Google Play 安装
+        </a>
+
+        <a href="http://intelegraphics.github.io/release/zhuanshuzidian_1.apk" class="btn btn-gray" target="_blank">
+            ⬇️ 方式二：直接下载 APK
         </a>
 
         <div class="note">
             <strong>📌 安装说明</strong>
-            <p>1. 点击上方按钮下载 APK 文件</p>
-            <p>2. 如果提示「禁止安装未知应用」，请点击「设置」并允许</p>
-            <p>3. 返回文件管理器中找到下载的 APK，点击安装</p>
+            <p><strong>方式一：</strong> 点击后成为测试员，跳转 Play 商店安装</p>
+            <p><strong>方式二：</strong> 下载 APK 后，如果提示「禁止安装」，请点击「设置」并允许「允许来自此来源的应用」</p>
+            <p>💡 如果 Chrome 下载没反应，请长按按钮 → 选择「保存链接」</p>
         </div>
     </div>
 </body>
